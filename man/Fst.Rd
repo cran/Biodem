@@ -31,7 +31,7 @@ data(P); data(S); data(N)
 x<-mal.eq(S,P,N)
 # calculation of phi
 phi<-mal.phi(S,P,N,x)
-# calcutaion of the conditional kinship matrix
+# calculation of the conditional kinship matrix
 cond<-mal.cond(phi,N)
 # finally! we get the Fst value
 fst<-Fst(cond,N)

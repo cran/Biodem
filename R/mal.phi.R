@@ -15,4 +15,5 @@ mal.phi <- function(S,P,N,n){
     D<-diag(D) ## creating the REAL D matix, which is a diagonal matrix
     phi<-phi+(S1%*%Pt1%*%D%*%P1%*%S1) ## Malecot model
   }
+  phi
 }

@@ -10,11 +10,11 @@ sur.freq(x,pop,mal.sur,fem.sur,freq.table="total")
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
-  \item{x}{ is a data frame in which every row corresponds to a different marriage record. The data frame must contain: a) a column reporting the population in which the marriage was recorded; b) a column containing male surnames; c) a column containing female surnames }
+  \item{x}{ is a data frame in which every row corresponds to a different marriage record. The data frame must contain: \bold{a} a column reporting the population in which the marriage was recorded; \bold{b} a column containing male surnames; \bold{c} a column containing female surnames }
   \item{pop}{ is the name of the column in the data frame that reports the population in which the marriage was recorded }
   \item{mal.sur}{ is the name of the column in the data frame that contains male surnames }
   \item{fem.sur}{ is the name of the column in the data frame that comtains female surnames }
-  \item{freq.table} { character string specifying the tipe of surname frequency table to be calculated. The available options are: "males" (table calculated using only male surnames); "females" (table calculated using only female surnames); "total" (table calculated using all the surnames); "marriages" (tables calculated using observed pairs of surnames in each population). The default option is "total". }
+  \item{freq.table}{ character string specifying the type of surname frequency table to be calculated. The available options are: "males" (table calculated using only male surnames); "females" (table calculated using only female surnames); "total" (table calculated using all the surnames); "marriages" (tables calculated using observed pairs of surnames in each population). The default option is "total". }
 }
 \details{
   ``sur.freq'' is specifically written to derive surname frequency tables from marriage data, or, more generally, data in which appear couples of related surnames, as birth records etc. 

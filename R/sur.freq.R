@@ -10,14 +10,14 @@ sur.freq = function(x,pop,mal.sur,fem.sur,freq.table="total"){
     stop("this one does not exist!")
   if (freq.table==1)
     tab=table(mal.sur,pop)
- if (freq.table==2)
+  if (freq.table==2)
    tab=table(fem.sur,pop)
- if (freq.table==3){
-   tot.sur = data.frame(c(as.character(mal.sur),as.character(fem.sur)),rep(pop,2))
-   names(tot.sur) = NULL
-   names(tot.sur) = c("surname","pop")
-   tab = table(tot.sur$surname,tot.sur$pop)
- }
+  if (freq.table==3){
+    tot.sur = data.frame(c(as.character(mal.sur),as.character(fem.sur)),rep(pop,2))
+    names(tot.sur) = NULL
+    names(tot.sur) = c("surname","pop")
+    tab = table(tot.sur$surname,tot.sur$pop)
+  }
   if (freq.table==4)
     tab = table(mal.sur,fem.sur,pop)
   detach(x)

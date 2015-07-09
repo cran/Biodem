@@ -28,7 +28,7 @@ hedrick(x)
 \examples{
 # starting from a raw marriage records dataset:
 data(valley)
-tot <- sur.freq(valley,PAR,SURM,SURF)
+tot <- sur.freq(valley,valley$PAR,valley$SURM,valley$SURF)
 tot # a frequency table calculated above all the surnames
 hed.kin <- hedrick(tot)
 hed.kin # a standardized kinship matrix

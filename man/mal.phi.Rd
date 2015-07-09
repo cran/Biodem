@@ -24,7 +24,7 @@ mal.phi(S, P, N, n)
 \references{ Imaizumi, Y., N. E. Morton and D. E. Harris. 1970. Isolation by distance in artificial populations. Genetics 66: 569-582.
 
 Jorde, L. B. 1982. The genetic structure of the Utah mormons: migration analysis. Human Biology 54(3): 583-597. }
-\author{ Federico C. F. Calboli \email{f.calboli@imperial.ac.uk} }
+\author{ Federico C. F. Calboli \email{federico.calboli@helsinki.fi} }
 \note{ ... }
 \seealso{ \code{\link{mal.eq}} for the function generating the number of cycles needed to reach the asymptotic value }
 \examples{

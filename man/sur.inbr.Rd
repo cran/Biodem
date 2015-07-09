@@ -30,7 +30,7 @@ sur.inbr(x,method="B")
 data(valley)
 valley # a subset of a real marriage data base
 
-mar <- sur.freq(valley,PAR,SURM,SURF,freq.table="marriages")
+mar <- sur.freq(valley,valley$PAR,valley$SURM,valley$SURF,freq.table="marriages")
 mar # frequency tables calculated above the observed pairs of surnames in each population
 
 iso <- mar.iso(mar)

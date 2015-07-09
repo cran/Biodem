@@ -32,7 +32,7 @@ surnames. Human Biology, 60(3): 475-492.}
 \examples{
 # starting from a raw marriage records dataset:
 data(valley)
-tot <- sur.freq(valley,PAR,SURM,SURF)
+tot <- sur.freq(valley,valley$PAR,valley$SURM,valley$SURF)
 tot # a frequency table calculated above all the surnames
 iso.matrix <- uri(tot)
 iso.matrix # a unbiased random isonymy matrix

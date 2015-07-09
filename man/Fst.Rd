@@ -22,7 +22,7 @@ Fst(rval, N)
 \references{ Harpending, H. C. and T. jenkins. 1974. !Kung population structure. In: J. F. Crow and C. F. Denniston (eds.), Genetic distance, pp 137-161. Plenum Press, NY.
 
 Jorde, L. B. 1982. The genetic structure of the Utah mormons: migration analysis. Human Biology 54(3): 583-597. }
-\author{ Federico C. F. Calboli \email{f.calboli@imperial.ac.uk} }
+\author{ Federico C. F. Calboli \email{federico.calboli@helsinki.fi} }
 \note{ ... }
 \examples{
 # Swedlund data again...
@@ -39,7 +39,7 @@ fst
 
 # starting from a raw marriage records dataset:
 data(valley)
-tot <- sur.freq(valley,PAR,SURM,SURF)
+tot <- sur.freq(valley,valley$PAR,valley$SURM,valley$SURF)
 tot # a frequency table calculated above all the surnames
 iso.matrix <- uri(tot)
 iso.matrix # an unbiased random isonymy matrix

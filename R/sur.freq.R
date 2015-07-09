@@ -1,5 +1,6 @@
 sur.freq = function(x,pop,mal.sur,fem.sur,freq.table="total"){
-  attach(x)
+  #attach(x)
+  #on.exit(detach(x))
   pop = factor(pop)
   sur.lev = union(levels(mal.sur),levels(fem.sur))
   mal.sur = factor(mal.sur,levels=sur.lev)
@@ -20,6 +21,5 @@ sur.freq = function(x,pop,mal.sur,fem.sur,freq.table="total"){
   }
   if (freq.table==4)
     tab = table(mal.sur,fem.sur,pop)
-  detach(x)
   tab
 }

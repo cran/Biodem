@@ -29,7 +29,7 @@ r.pairs(x)
 data(valley)
 valley # a subset of a real marriage data base
 
-mar <- sur.freq(valley,PAR,SURM,SURF,freq.table="marriages")
+mar <- sur.freq(valley,valley$PAR,valley$SURM,valley$SURF,freq.table="marriages")
 mar # frequency tables of the observed pairs of surnames in each population
 
 RP <- r.pairs(mar)

@@ -25,7 +25,7 @@ mal.eq(S, P, N)
 Jorde, L. B. 1982. The genetic structure of the Utah mormons: migration analysis. Human Biology 54(3): 583-597.
 
 Swedlund, A. C., L. B. Jorde and J. H. Mielke. 1984. Population structure in the Connecticut valley. I. Marital migration. American Journal of Physical Anthropology 65: 61-70 }
-\author{ Federico C. F. Calboli \email{federico.calboli@helsinki.fi} }
+\author{ Federico C. F. Calboli \email{f.calboli@gmail.com} }
 \note{
   This function has been coerced to use "only" six significant digits.
   ...

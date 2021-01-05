@@ -20,7 +20,7 @@ mal.cond(PHI, N)
   Returns a square symmetrical matrix.
 }
 \references{ Jorde, L. B. 1982. The genetic structure of the Utah mormons: migration analysis. Human Biology 54(3): 583-597. }
-\author{ Federico C. F. Calboli \email{federico.calboli@helsinki.fi} }
+\author{ Federico C. F. Calboli \email{f.calboli@gmail.com} }
 \note{ ... }
 \seealso{ \code{\link{mal.phi}} for the calculation of "absolute" kinship values }
 \examples{
